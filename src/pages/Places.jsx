@@ -45,7 +45,7 @@ const Places = () => {
           <p>Farm</p>
           <button className='flex p-2 mx-auto md:mx-0 rounded-md border   gap-2'><p>location</p> <img src={setting} alt="" /></button>
         </div>
-        <main className='grid place-items-center md:grid-cols-2 lg:grid-cols-4 gap-3 mb-7'>
+        <main className='grid place-items-center md:grid-cols-2 lg:grid-cols-4 gap-3 mb-7 md:py-6 lg:py-10 md:mx-3 lg:mx-[100px]'>
             <img src= {frame1} alt="" />
             <img src= {frame2} alt="" />
             <img src= {frame3} alt="" />

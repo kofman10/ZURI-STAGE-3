@@ -25,12 +25,12 @@ const onCloseHandler = () => {
     <div>
       < Header modalHandler = {modalHandler} />
         <main className=''> 
-            <div className='flex flex-col md:flex-row items-center lg:justify-between gap-4 mx-3 md:mx-5 lg:mx-8'>
+            <div className='flex flex-col md:flex-row items-center lg:justify-between gap-4 mx-3 md:mx-5 lg:mx-[100px] lg:mt-16 lg:mb-10'>
               <div className='mb-4 md:w-[564px]'>
                 <p className='lg:text-[56px] md:text-4xl text-4xl mt-10 lg:leading-normal'>Rent a  <span className='text-[#A02279] '>Place</span> away from  <span className='text-[#A02279] '>Home</span> in the  <span className='text-[#A02279] '>Metaverse</span></p>
         <p className='lg:text-[24px] text-sm md:text-xl mt-7'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
          
-        <input type="text" placeholder='search for location' className='p-1 border focus:outline-none placeholder:text-gray-200 mt-5 lg:w-[390px] lg:h-[54px]'/><a href="/" className='bg-[#A02279] px-10 py-[18px] rounded-r-lg lg:w-[230px]'>search</a>
+        <input type="text" placeholder='search for location' className='p-1 border focus:outline-none placeholder:text-gray-200 mt-5 lg:w-[390px] lg:h-[54px]'/><a href="/" className='bg-[#A02279] p-2 lg:px-10 lg:py-[18px] rounded-r-lg lg:w-[230px]'>search</a>
         </div>
         
         
@@ -45,9 +45,9 @@ const onCloseHandler = () => {
         <img src={Group3} alt="" />
         <img src={Group4} alt="" />
         </div>
-        <p className='font-bold text-center text-2xl lg:text-4xl mt-5 mb-5'>Inspiration for your next adventure</p>
+        <p className='font-bold text-center text-2xl lg:text-4xl mt-5 lg:mt-12 lg:mb-8 mb-5'>Inspiration for your next adventure</p>
         <Estates />
-         <div className='bg-[#A02279] flex flex-col items-center lg:flex-row gap-3 w-full lg:px-9'>
+         <div className='bg-[#A02279] flex flex-col items-center lg:flex-row gap-3 w-full lg:px-[100px] py-9'>
            <div className='mx-3 md:mx-5 lg:mx-8 lg:w-[415px]'>
            <h1 className='text-white text-3xl mt-5'>Metabnb NFTs</h1>
       <p className='text-white mt-7 mb-6'>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>

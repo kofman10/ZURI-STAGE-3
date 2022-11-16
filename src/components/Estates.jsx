@@ -10,7 +10,7 @@ import frame8 from '../assets/Frame 143 (8).png'
 
 const Estates = () => {
   return (
-    <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-3 place-items-center lg:mx-3 mb-3'>
+    <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-3 place-items-center md:mx-3 lg:mx-[100px] lg:mb-7 mb-3'>
         <img src={frame1} alt="" />
         <img src= {frame2} alt="" />
         <img src= {frame3} alt="" />

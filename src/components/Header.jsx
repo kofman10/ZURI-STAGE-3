@@ -14,7 +14,7 @@ const [icon, setIcon] = useState(false)
 
   return (
     <div>  
-      <nav className='flex justify-between items-center mt-3 mx-2 lg:mx-8'>   
+      <nav className='flex justify-between items-center mt-3 mx-2 lg:mx-[100px]'>   
     {icon ?  <Icon className='h-6 w-6' onClick={menuHandler} icon="bi:x-lg" /> : <Icon onClick={menuHandler} className='lg:hidden h-8 w-8' icon="ci:hamburger" /> }
     <a href='/' className='w-32 h-6'><img className='' src= {Group1} alt="" /></a>
     <ul className='bg-white hidden lg:flex gap-6'>
