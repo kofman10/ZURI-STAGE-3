@@ -34,7 +34,7 @@ const Places = () => {
   return (
     <div>
       < Header modalHandler = {modalHandler} />
-        <div className='md:flex justify-center gap-2 items-center mb-5'>
+        <div className='text-center md:flex justify-center md:gap-6 items-center mb-5 md:w-full'>
           <p>Restaurant</p>
           <p>Cottage</p>
           <p>Castle</p>
@@ -43,9 +43,9 @@ const Places = () => {
           <p>Carbins</p>
           <p>Off-grid</p>
           <p>Farm</p>
-          <button className='p-2 rounded-md border flex  gap-2'><p>location</p> <img src={setting} alt="" /></button>
+          <button className='flex p-2 mx-auto md:mx-0 rounded-md border   gap-2'><p>location</p> <img src={setting} alt="" /></button>
         </div>
-        <main className='grid place-items-center md:grid-cols-2 lg:grid-cols-4 gap-3'>
+        <main className='grid place-items-center md:grid-cols-2 lg:grid-cols-4 gap-3 mb-7'>
             <img src= {frame1} alt="" />
             <img src= {frame2} alt="" />
             <img src= {frame3} alt="" />
